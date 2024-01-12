@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FragmentChat">
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:paddingLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/basic">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_gravity="center"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/icon_back"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/zilla_slab"
+            android:text="Direct Chat"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/whatsapp"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:lineSpacingExtra="5dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send a message to any number registered on whatsapp without saving"/>
+
+
+        <com.hbb20.CountryCodePicker
+            android:id="@+id/country"
+            app:ccp_defaultNameCode="PK"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:background="@drawable/field_box"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            app:ccp_showFullName="true"
+            app:ccp_showPhoneCode="true"
+            app:ccp_showNameCode="true"
+            app:ccp_showFlag="true"
+            app:ccp_autoFormatNumber="true"
+            app:ccp_showArrow="true"
+            app:ccp_textSize="16sp"
+            app:ccp_arrowSize="16sp"
+            app:ccpDialog_keyboardAutoPopup="false"/>
+
+
+        <EditText
+            android:id="@+id/mobileNo"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:inputType="phone"
+            android:hint="Mobile Number"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/field_box"
+            />
+
+    <EditText
+        android:id="@+id/message"
+        android:scrollbars="vertical"
+        android:minLines="5"
+        android:gravity="top"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:inputType="textMultiLine"
+        android:hint="Enter Message"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@drawable/field_box"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:backgroundTint="@color/basic"
+        android:id="@+id/sendMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SEND"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"/>
+
+</LinearLayout>

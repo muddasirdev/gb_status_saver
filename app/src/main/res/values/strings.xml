@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">GB Status Saver</string>
+
+    <string name="app_version">1.0</string>
+    <string name="wa_wa_business"><![CDATA[WA & WA Business]]></string>
+    <string name="share_repost"><![CDATA[Share & repost]]></string>
+    <string name="save_video_photos"><![CDATA[Save video & photos]]></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="app_id">ca-app-pub-8834909156497028~7376787947</string>
+    <string name="hone_screen_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="reward_ads_id">ca-app-pub-3940256099942544/5354046379</string>
+
+</resources>

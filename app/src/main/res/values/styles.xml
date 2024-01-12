@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomTabLayout" parent="Widget.Design.TabLayout">
+        <!-- Customize tab layout attributes as needed -->
+        <item name="tabIndicatorColor">@color/white</item>
+        <item name="tabTextColor">@color/white</item>
+        <item name="tabBackground">@color/basic</item>
+        <!-- Add more customizations here -->
+    </style>
+</resources>

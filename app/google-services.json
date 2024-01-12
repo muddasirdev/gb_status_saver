@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "160856178231",
+    "project_id": "gb-whatsapp-status-ec6bb",
+    "storage_bucket": "gb-whatsapp-status-ec6bb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:160856178231:android:b14399bd7a956a292c89b2",
+        "android_client_info": {
+          "package_name": "com.codewithmuddasir.statussaver"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnTauqhCBsSKWXsaW3rFDlRHLd2uRkk_4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
